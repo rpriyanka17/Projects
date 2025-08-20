@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;  /* soft blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;   /* full screen height */
+}
+
+/* Style the heading */
+h1 {
+  color: #ff69b4;  /* pink text */
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px #aaa;  /* soft shadow */
+  animation: fadeIn 2s ease-in-out; /* simple fade-in animation */
+}
+
+/* Optional fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
