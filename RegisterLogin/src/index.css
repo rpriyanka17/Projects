@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* soft blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 50, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  color: #0277bd; /* darker blue heading */
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #90caf9; /* light blue border */
+  border-radius: 5px;
+}
+
+.role-selector {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.role-selector label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #01579b; /* navy-ish text for roles */
+}
+
+button {
+  background-color: #0288d1; /* bright blue button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #01579b; /* darker blue on hover */
+}
